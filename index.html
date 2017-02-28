@@ -1,0 +1,93 @@
+<!--
+
+Training ARC Day 5 ( Front End Website )
+Author : Muhammad Rafid Amrullah / 13515125
+
+-->
+
+<html>
+    <head>
+        <title>The Capital</title> <!--Title for browser tab-->
+        <link rel="icon" href="img/favicon.png" type="image"> <!--Icon for browser tab-->
+        
+        <meta name="viewport" content="width=device-width, initial-scale =1">  <!--To make font size and other element's width persistent--> 
+        
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:300,500' rel='stylesheet' type='text/css'> <!--Download Montserrat font with the weight 300 and 500-->
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css"/> <!--Link to main.css-->
+        <script src="js/main.js" ></script> <!--Link to main.js-->
+    </head>
+    
+    <body>
+        <div class="nav"> <!--Navigation part-->
+            <div class="logo">
+                <img src="img/logo.svg" id="logo"/> <!--Logo-->
+            </div>
+            <div class="signpar">
+                <div class="sign"> <!--Navigation Menu-->
+                    <div id="register"><a href="#" id="navbtn">REGISTER</a></div>
+                    <div id="login"><a href="#" id="navbtn">LOGIN</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="main"> <!--Main part-->
+            <div class="mfirst">
+                <div id="title">THE CAPITAL</div>
+            </div>
+            <div class="msecond">
+                <div class="one"> <!--Left part-->
+                    <div class="content">
+                        <div id="city-1">
+                            <div id="a1">Jakarta</div>
+                            <div id="a2">Jakarta is the most populous and the largest city in Indonesia. More than 9,608 million (2010) peoples are living there according to the UN data. Jakarta (DKI Jakarta) is located on the northwest of Java Island and bordering the Java Sea. Peoples are varies, Javanese, Sundanese, Batak, Sulawesi, Madurese, Betawi, Malay, and Chinese are living there.</div>
+                            <div id="a2">Jakarta's famous Landmark is Monas Tower (National Monument Tower), located in Merdeka Square.</div>
+                        </div>
+                        <div id="city-2" style="display:none">
+                            <div id="a1">Kuala Lumpur</div>
+                            <div id="a2">Kuala Lumpur or KL is the capital city of Malaysia. It is the largest city in Malaysia and the residence of the Malaysian King. Kuala Lumpur has a high english proficiency index considering this city is the home for different peoples and ethnic groups like Malay, Chinese, and Indian.</div>
+                            <div id="a2">There is a twin buildings/tower called Petronas Tower and it is a tallest twin buildings in this world.</div>
+                        </div>
+                        <div id="city-3" style="display:none">
+                            <div id="a1">Singapore</div>
+                            <div id="a2">Singapore, It is both city and country. one of the most advanced city in this world. This city placed in the south of Malaysia and the north of Batam Island (Indonesia).This city is the place for many ethnic groups. The largest groups are from China, Malaysia, and India. One of the official languages in Singapore is English and that makes this city has a very high english proficiency index.</div>
+                            <div id="a2">Long years ago Singapore separated from malaysia and became a Country. The first president is Yusof bin Ishak and the first prime minister is Lee Kuan Yew.</div>
+                        </div>
+                    </div>
+                    <div class="pagination"> <!--Pagination button [1] [2] [3] -->
+                        <a class="bpage" href="#" onclick="button(event,1)">1</a> <!--If you click it in browser, button function in main.js works-->
+                        <a class="bpage" href="#" onclick="button(event,2)">2</a>
+                        <a class="bpage" href="#" onclick="button(event,3)">3</a>
+                    </div>
+                </div>
+                <div class="two"> <!--Right part-->
+                    <div class="content" id="funfact">
+                        <div id="funfact-1">
+                            <div id="b1">Fun Facts</div>
+                            <div id="b2">At least once a year flood occurred in Jakarta.</div>
+                            <div id="b2">Actually Jakarta is a province.</div>
+                            <div id="b2">Extreme traffic jam almost happened everyday.</div>
+                        </div>
+                        <div id="funfact-2" style="display:none">
+                            <div id="b1">Fun Fact</div>
+                            <div id="b2">The Petronas Twin Tower in KL were the tallest buildings in the world between 1998 to 2004.</div>
+                            <div id="b2">The residents of KL are called KLites.</div>
+                            <div id="b2">KL is not a city until 1972.</div>
+                        </div>
+                        <div id="funfact-3" style="display:none">
+                            <div id="b1">Fun Fact</div>
+                            <div id="b2">Chewing gum in Singapore = commit crime!</div>
+                            <div id="b2">Singapore is the capital of Singapore</div>
+                            <div id="b2">Singapore is 15000 times smaller than US</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer"> <!--Final part in the bottom of web page-->
+                <div id="author">
+                    -Muhammad Rafid
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
